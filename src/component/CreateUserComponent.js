@@ -129,7 +129,7 @@ const CreateUserComponent = () => {
   };
 
   return (
-    <div className="container mt-4">
+    <div className="container mt-4 form-container" style={{ backgroundColor: '#f0f0f0' }}>
       <h2>Create User</h2>
       {submitStatus === 'success' && (
         <Alert variant="success">
