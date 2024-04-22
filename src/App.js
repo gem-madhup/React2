@@ -13,6 +13,8 @@ const App = () => {
         <Routes>
           <Route path="/users/*" element={<UserModuleRoutes />} />
           <Route path="/" element={<Navigate to="/users/create" />} />
+          <Route path="/users" element={<Navigate to="/users/create" />} />
+
         </Routes>
       </div>
     </Router>
